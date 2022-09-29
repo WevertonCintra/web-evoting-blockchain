@@ -18,24 +18,22 @@ export const Title = styled.h1`
   font-size: 36px;
   color: black;
   margin:0;
-  margin-bottom: 40px;
   padding:0;
 `;
 
-export const InputFile = styled.input`
-  width: 300px;
-  height: 30px;
-  margin-top: 10px;
-  text-align: center;
-  border-radius: 2px;
-  border: 1px solid;
-  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
+export const SubTitle = styled.h6`
+  font-weight: bold;
+  font-size: 20px;
+  color: ${(props) => props.theme['subtitulo']};
+  margin:0;
+  padding:0;
+  text-align: center;  
 `;
 
-export const InputCadastro = styled.input`
+export const InputPass = styled.input`
   width: 300px;
   height: 30px;
-  margin-top: 10px;
+  margin-top: 40px;
   text-align: center;
   border-radius: 2px;
   border: 1px solid;

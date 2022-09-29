@@ -24,7 +24,7 @@ function Navbar() {
         <RightContainer>
           <NavbarLinkContainer>
             <NavbarLink to="/login"> Entrar</NavbarLink>
-            <NavbarLink to="/products"> Cadastre-se</NavbarLink>
+            <NavbarLink to="/cadastro"> Cadastre-se</NavbarLink>
           </NavbarLinkContainer>
         </RightContainer>
       </NavbarInnerContainer>
