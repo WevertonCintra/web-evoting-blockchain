@@ -42,14 +42,14 @@ export const InputCadastro = styled.input`
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
 `;
 
-export const BtnSubmit = styled.button`
+export const BtnLogin = styled.button`
   color: white;
   width: 300px;
   height: 30px;
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
   margin-top: 10px;
-  border: solid ${(props) => props.theme['submit']};
+  border: solid ${(props) => props.theme['next']};
   border-radius: 2px;
-  background-color: ${(props) => props.theme['submit']};
+  background-color: ${(props) => props.theme['next']};
   margin-bottom: 30%;
  `;
