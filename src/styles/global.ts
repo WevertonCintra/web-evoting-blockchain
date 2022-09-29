@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${(props) => props.theme['cinza']};
     color: ${(props) => props.theme['gray-900']};
+    height: 100%;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -25,18 +26,9 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 `
-export const Title = styled.h1`
-  text-align:center;
-  margin-top: 1%;
-  color: black;
-`;
 
-export const SubTitle = styled.h6`
-  text-align:center;
-  font-weight: lighter;
-  font-size: 12px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: ${(props) => props.theme['subtitulo']};
+export const Container = styled.div`
+    min-height: 20rem;
 `;
 
 

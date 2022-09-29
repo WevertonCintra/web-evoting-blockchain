@@ -12,7 +12,7 @@ export const theme = {
   'gray-900': '#121214',
   'footer': '#13630C',
 
-  'green-300': '#00B37E',
+  'submit': '#28A745',
   'green-500': '#00875F',
   'green-700': '#015F43',
 
