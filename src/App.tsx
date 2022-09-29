@@ -14,6 +14,7 @@ export function App() {
       <BrowserRouter>
         <Navbar />
         <Router />
+        <Footer />
       </BrowserRouter>
 
       <GlobalStyle />
