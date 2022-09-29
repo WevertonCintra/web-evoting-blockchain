@@ -12,10 +12,8 @@ import {
 import LogoImg from "../assets/logo.png";
 
 function Navbar() {
-  const [extendNavbar, setExtendNavbar] = useState(false);
-
   return (
-    <NavbarContainer extendNavbar={extendNavbar}>
+    <NavbarContainer>
       <NavbarInnerContainer>
         <LeftContainer>
           <ImgLink to="/" >

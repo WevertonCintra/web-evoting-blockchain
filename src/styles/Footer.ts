@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? "100vh" : "120px")};
-  background-color: ${(props) => props.theme['verde']};
-  @media (min-width: 700px) {
-    height: 110px;
-  }
+  background-color: ${(props) => props.theme['footer']};
+  height: 120px;
+  position:fixed;
+  bottom:0;
 `;
 
 export const FooterVoidContainer = styled.div`
@@ -17,7 +16,7 @@ export const FooterVoidContainer = styled.div`
 export const FooterLinkContainer = styled.div`
   display: flex;
   flex: 80%;
-  height: 50px;  
+  height: 35px;  
   flex-direction: column;
   flex-wrap: wrap;
   align-content:space-between;
@@ -43,8 +42,7 @@ export const FooterSubTitle = styled.h6`
 export const ImgLink = styled.a``;
 
 export const Logo = styled.img`
-  max-height: 50px;
-  margin: 10px;
-  max-width: 180px;
+  max-height: 40px;
+  max-width: auto;
   height: auto;
 `;

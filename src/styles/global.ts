@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import styled from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -23,9 +24,19 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 1rem;
   }
-
-  Navbar {
-    display:flex;
-    list-style:none;
-  }
 `
+export const Title = styled.h1`
+  text-align:center;
+  margin-top: 1%;
+  color: black;
+`;
+
+export const SubTitle = styled.h6`
+  text-align:center;
+  font-weight: lighter;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: ${(props) => props.theme['subtitulo']};
+`;
+
+

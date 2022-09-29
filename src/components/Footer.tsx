@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import {
     FooterContainer,
     ImgLink,
@@ -20,10 +19,8 @@ import LinkedinLogo from "../assets/linkedin.png"
 
 
 function Footer() {
-    const [extendFooter, setExtendFooter] = useState(false);
-
     return (
-        <FooterContainer extendFooter={extendFooter}>
+        <FooterContainer>
             <FooterTitle>Redes Sociais</FooterTitle>
             <FooterLinkContainer>
                 <ImgLink href="https://www.facebook.com/" target='_blank' >
