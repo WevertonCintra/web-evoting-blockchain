@@ -56,46 +56,6 @@ export const BtnContainer = styled.div`
   justify-content: space-between;  
 `;
 
-export const FormContainer = styled.div`
-    display: grid;
-    grid-template-columns: 45% 45%;
-    justify-content: space-around;
-`;
-
-export const FormElementContainer = styled.div`
-    width: 100%;
-`;
-
-export const Label = styled.h1`
-    font-size: 24px;
-    color: black;
-    margin:0;
-    padding:0;
-    margin-top: 2%;
-    text-align: left;
-`;
-
-export const FormField = styled.input`
-    height: 38px;
-    width:100%;
-    text-align: left;
-    border-radius: 3px;
-    border: 1px solid gray;
-    
-`;
-export const DescriptionField = styled.div`
-    display: grid;
-    grid-template-columns: 95%;   
-    justify-content: space-around;
-`;
-export const DescriptionFormField = styled.input`
-    height: 120px;
-    margin-top: 0px;
-    text-align: left;
-    border-radius: 3px;
-    border: 1px solid gray;    
-`;
-
 export const TicketsContainer = styled.div`
   display:grid;
   grid-row: auto;

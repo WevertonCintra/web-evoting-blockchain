@@ -1,14 +1,21 @@
-import { TableVoting, TableTd, Title, TopBar, TableTh, TableTr, TableLink, BtnVoltar, ContentContainer } from '../styles/ProgressVoting'
+import { TableVoting, TableTd, Title, TopBar, TableTh, TableTr, TableLink, BtnVoltar, ContentContainer, Btn, TopGrid } from '../styles/ListVotes'
 
 import View from '../assets/view.png'
+import { theme } from '../styles/theme'
 
 
-function ProgressVoting() {
+export default function ListVotes() {
   return (
     <ContentContainer >
-      <TopBar>
-        <Title>Votações Em Andamento</Title>
-      </TopBar>
+      <TopGrid>
+        <TopBar>
+          <Title>Minhas Votações</Title>
+        </TopBar>
+        <TableLink to="/registerVoting">
+          <Btn color={theme['blue']}>Adicionar</Btn>
+        </TableLink>
+      </TopGrid>
+
 
       <TableVoting>
         <tbody>
@@ -18,6 +25,9 @@ function ProgressVoting() {
             </TableTh>
             <TableTh>
               Descrição
+            </TableTh>
+            <TableTh>
+              Status
             </TableTh>
             <TableTh>
               Fim
@@ -30,14 +40,16 @@ function ProgressVoting() {
           <TableTr>
             <TableTd>Primeira Votação</TableTd>
             <TableTd>Votação da votação</TableTd>
+            <TableTd>Finalizado</TableTd>
             <TableTd>29/10/2022 12:00</TableTd>
-            <TableTd><TableLink to="/VotesView"><img src={View} width="26"></img></TableLink></TableTd>
+            <TableTd><TableLink to="/ViewVoting"><img src={View} width="26"></img></TableLink></TableTd>
           </TableTr>
           <TableTr>
             <TableTd>Segunda Votação</TableTd>
             <TableTd>Votação da votação da votação</TableTd>
+            <TableTd>Em Andamento</TableTd>
             <TableTd>29/10/2022 12:30</TableTd>
-            <TableTd><TableLink to="/VotesView"><img src={View} width="26"></img></TableLink></TableTd>
+            <TableTd><TableLink to="/ViewVoting"><img src={View} width="26"></img></TableLink></TableTd>
           </TableTr>
         </tbody>
       </TableVoting>
@@ -46,5 +58,3 @@ function ProgressVoting() {
     </ContentContainer>
   )
 }
-
-export default ProgressVoting
