@@ -20,6 +20,7 @@ export const theme = {
 
   'red-500': '#AB222E',
   'red-700': '#7A1921',
+  'red': "#CE3535",
 
   'yellow-500': '#FBA94C',
 } as const
