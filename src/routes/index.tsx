@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 
+
 import Home from '../pages/Home'
 import Login from'../pages/Login'
 import Cadastro from '../pages/Cadastro'
@@ -9,10 +10,16 @@ import ProgressVoting from '../pages/ProgressVoting'
 import Vote from '../pages/Vote'
 import RegisterVotingOpt from '../pages/RegisterVotingOpt'
 
+import { Home } from '../pages/Home'
+import { SignUp } from '../pages/SignUp'
+import { SignIn } from '../pages/SignIn'
+
+
 export function Router() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+
       <Route path="/login" element={<Login />} />
       <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/evento" element={<Evento />} />
@@ -20,6 +27,10 @@ export function Router() {
       <Route path='/registerVotingOptions' element={<RegisterVotingOpt />} />
       <Route path="/progressVoting" element={<ProgressVoting />} />
       <Route path="/vote" element={<Vote />} />
+
+      <Route path="/registro" element={<SignUp />} />
+      <Route path="/acesso" element={<SignIn />} />
+
     </Routes>
   )
 }

@@ -1,11 +1,15 @@
-import { TableVoting, TableTd, TableTh, TableTr, TableLink, BtnVoltar, ContentContainer } from '../styles/ProgressVoting'
+import { TableVoting, TableTd, Title, TopBar, TableTh, TableTr, TableLink, BtnVoltar, ContentContainer } from '../styles/ProgressVoting'
 
 import View from '../assets/view.png'
 
 
 function ProgressVoting() {
   return (
-    <ContentContainer>
+    <ContentContainer >
+      <TopBar>
+        <Title>Votações Em Andamento</Title>
+      </TopBar>
+
       <TableVoting>
         <tbody>
           <TableTr>
