@@ -11,13 +11,19 @@ export const ContentContainer = styled.div`
     margin-bottom: 5%;    
     `;
 
+export const TopGrid = styled.div`
+    display: grid;
+    grid-template-columns: 75% 25%;
+    justify-content: space-around;
+`;
 export const TopBar = styled.div`
     width: 936px;
     height: 69.5px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 1%;
     border-bottom: 1px solid green;
+   
     `;
 export const FormContainer = styled.div`
     display: grid;
