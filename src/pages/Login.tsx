@@ -1,4 +1,4 @@
-import { ContentContainer, Image, Title, BtnLogin, InputCadastro} from '../styles/Login'
+import { ContentContainer, Image, Title, BtnLogin, InputCadastro } from '../styles/Login'
 import FileUploader from '../components/FileUploader';
 import Imagem from '../assets/login.png';
 
@@ -9,7 +9,7 @@ function Login() {
       <Title>Entrar</Title>
 
       <form>
-      <FileUploader></FileUploader>
+        <FileUploader></FileUploader>
         <br></br>
         <InputCadastro type="password" name="password" id="password" placeholder="DIGITE A SENHA">
         </InputCadastro>

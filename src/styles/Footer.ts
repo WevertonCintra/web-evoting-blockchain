@@ -13,7 +13,7 @@ export const FooterVoidContainer = styled.div`
 
 export const FooterLinkContainer = styled.div`
   display: flex;
-  flex: 80%;
+  flex: 100%;
   height: 35px;  
   flex-direction: column;
   flex-wrap: wrap;

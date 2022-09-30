@@ -11,6 +11,7 @@ export const theme = {
   'gray-800': '#202024',
   'gray-900': '#121214',
   'footer': '#13630C',
+  'voltar': '#6C757D',
 
   'next': '#7749F8',
   'submit': '#28A745',

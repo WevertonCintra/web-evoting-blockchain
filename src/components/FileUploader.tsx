@@ -6,6 +6,7 @@ const Button = styled.button`
   height: 30px;
   background-color: white;
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
+  border: 1px solid;
 `;
 const FileUploader = () => {
   const hiddenFileInput = React.useRef(null);
