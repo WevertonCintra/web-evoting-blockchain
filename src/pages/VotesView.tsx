@@ -26,12 +26,12 @@ export default function VotesView() {
             <TableTr>
               <TableTd>Opção 1</TableTd>
               <TableTd>Melhor Opção</TableTd>
-              <TableTd><TableLink to="/ViewVoting"><img src={Confirmed} width="26"></img></TableLink></TableTd>
+              <TableTd><TableLink to="/Vote"><img src={Confirmed} width="26"></img></TableLink></TableTd>
             </TableTr>
             <TableTr>
               <TableTd>Segunda Votação</TableTd>
               <TableTd>Segundo Lugar</TableTd>    
-              <TableTd><TableLink to="/ViewVoting"><img src={Confirmed} width="26"></img></TableLink></TableTd>
+              <TableTd><TableLink to="/Vote"><img src={Confirmed} width="26"></img></TableLink></TableTd>
             </TableTr>
           </tbody>
         </TableVoting>
