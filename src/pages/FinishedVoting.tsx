@@ -3,11 +3,11 @@ import { TableVoting, TableTd, Title, TopBar, TableTh, TableTr, TableLink, BtnVo
 import View from '../assets/view.png'
 
 
-function ProgressVoting() {
+function FinishedVoting() {
   return (
     <ContentContainer >
       <TopBar>
-        <Title>Votações Em Andamento</Title>
+        <Title>Votações Finalizadas</Title>
       </TopBar>
 
       <TableVoting>
@@ -31,13 +31,13 @@ function ProgressVoting() {
             <TableTd>Primeira Votação</TableTd>
             <TableTd>Votação da votação</TableTd>
             <TableTd>29/10/2022 12:00</TableTd>
-            <TableTd><TableLink to="/VotesView"><img src={View} width="26"></img></TableLink></TableTd>
+            <TableTd><TableLink to="/verifyVotes"><img src={View} width="26"></img></TableLink></TableTd>
           </TableTr>
           <TableTr>
             <TableTd>Segunda Votação</TableTd>
             <TableTd>Votação da votação da votação</TableTd>
             <TableTd>29/10/2022 12:30</TableTd>
-            <TableTd><TableLink to="/VotesView"><img src={View} width="26"></img></TableLink></TableTd>
+            <TableTd><TableLink to="/verifyVotes"><img src={View} width="26"></img></TableLink></TableTd>
           </TableTr>
         </tbody>
       </TableVoting>
@@ -47,4 +47,4 @@ function ProgressVoting() {
   )
 }
 
-export default ProgressVoting
+export default FinishedVoting

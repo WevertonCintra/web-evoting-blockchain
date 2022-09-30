@@ -29,8 +29,8 @@ function Navbar() {
             <NavbarLink to="/cadastro"> Cadastre-se</NavbarLink>
 
             <NavbarLink to="/progressVoting"> Votações em Andamento</NavbarLink>
-            <NavbarLink to="/cadastro"> Votações Finalizadas</NavbarLink>
-            <PerfilDropdown to="/cadastro">
+            <NavbarLink to="/votacoesFinalizadas"> Votações Finalizadas</NavbarLink>
+            <PerfilDropdown to="/minhaCarteira">
               <img src={Perfil} width="40px"></img>
             </PerfilDropdown>
           </NavbarLinkContainer>

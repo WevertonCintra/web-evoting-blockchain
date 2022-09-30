@@ -18,6 +18,7 @@ import ListVotes from '../pages/ListVotes'
 import VerifyVotes from '../pages/VerifyVotes'
 import RegisterVotingEnd from '../pages/RegisterVotingEnd'
 import MyWallet from '../pages/MyWallet'
+import FinishedVoting from '../pages/FinishedVoting'
 
 
 export function Router() {
@@ -37,6 +38,7 @@ export function Router() {
       <Route path="/votesView" element={<VotesView />} />
       <Route path="/registerVotingEnd" element={<RegisterVotingEnd />} />
       <Route path="/minhaCarteira" element={<MyWallet />} />
+      <Route path="/votacoesFinalizadas" element={<FinishedVoting />} />
 
       <Route path="/registro" element={<SignUp />} />
       <Route path="/acesso" element={<SignIn />} />
