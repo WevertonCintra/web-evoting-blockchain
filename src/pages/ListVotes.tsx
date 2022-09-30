@@ -7,13 +7,15 @@ import { theme } from '../styles/theme'
 export default function ListVotes() {
   return (
     <ContentContainer >
-        <TopGrid>
-            <TopBar>
-                <Title>Minhas Votações</Title>            
-             </TopBar>
-             <Btn color={theme['blue']}>Adicionar</Btn>
-        </TopGrid>
-      
+      <TopGrid>
+        <TopBar>
+          <Title>Minhas Votações</Title>
+        </TopBar>
+        <TableLink to="/registerVoting">
+          <Btn color={theme['blue']}>Adicionar</Btn>
+        </TableLink>
+      </TopGrid>
+
 
       <TableVoting>
         <tbody>
@@ -25,7 +27,7 @@ export default function ListVotes() {
               Descrição
             </TableTh>
             <TableTh>
-                Status
+              Status
             </TableTh>
             <TableTh>
               Fim

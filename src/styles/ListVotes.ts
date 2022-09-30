@@ -52,6 +52,7 @@ export const TableVoting = styled.table`
   margin-top:2%;
 `;
 
+
 export const TableTd = styled.td`
   padding: 8px;
   text-align: center;
@@ -71,15 +72,6 @@ export const TableTr = styled.tr`
 `;
 
 export const TableLink = styled(Link)`
-  color: white;
-  font-size: medium;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  margin: 10px;
-  margin-top: 25px;
-  @media (max-width: 700px) {
-    display: none;
-  }
 `;
 
 export const BtnVoltar = styled.button`
@@ -105,4 +97,5 @@ export const Btn = styled.button`
   height: 46px;
   border-radius: 4px;
   margin-bottom: 5px;
+  text-align: center;
 `;
