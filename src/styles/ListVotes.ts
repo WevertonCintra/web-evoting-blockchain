@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const ContentContainer = styled.div`
     background-color: white;
     border-radius: 3px;
-    width: 90%;
+    width: 90%; 
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
     margin-left: auto;
     margin-right: auto;
@@ -104,5 +104,5 @@ export const Btn = styled.button`
   width: 130px;
   height: 46px;
   border-radius: 4px;
-  margin: 20px;
+  margin-bottom: 5px;
 `;

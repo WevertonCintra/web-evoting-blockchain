@@ -1,7 +1,6 @@
-import { TableVoting, TableTd, Title, TopBar, TableTh, TableTr, TableLink, BtnVoltar, ContentContainer, Btn } from '../styles/ListVotes'
+import { TableVoting, TableTd, Title, TopBar, TableTh, TableTr, TableLink, BtnVoltar, ContentContainer, Btn, TopGrid } from '../styles/ListVotes'
 
 import View from '../assets/view.png'
-import { TopGrid } from '../styles/RegisterVoting'
 import { theme } from '../styles/theme'
 
 
@@ -10,11 +9,9 @@ export default function ListVotes() {
     <ContentContainer >
         <TopGrid>
             <TopBar>
-                <Title>Minhas Votações</Title>
-            
+                <Title>Minhas Votações</Title>            
              </TopBar>
              <Btn color={theme['blue']}>Adicionar</Btn>
-
         </TopGrid>
       
 

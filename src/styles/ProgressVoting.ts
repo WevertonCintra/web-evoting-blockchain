@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const ContentContainer = styled.div`
     background-color: white;
-    border-radius: 3px;
+    border-radius: 3px; 
     width: 90%;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
     margin-left: auto;
