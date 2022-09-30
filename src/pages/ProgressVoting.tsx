@@ -2,6 +2,7 @@ import { TableVoting, TableTd, TableTh, TableTr, TableLink, BtnVoltar, ContentCo
 
 import View from '../assets/view.png'
 
+
 function ProgressVoting() {
   return (
     <ContentContainer>
