@@ -10,9 +10,10 @@ import ProgressVoting from '../pages/ProgressVoting'
 import Vote from '../pages/Vote'
 import RegisterVotingOpt from '../pages/RegisterVotingOpt'
 
-import { Home } from '../pages/Home'
+
 import { SignUp } from '../pages/SignUp'
 import { SignIn } from '../pages/SignIn'
+import VotesView from '../pages/VotesView'
 
 
 export function Router() {
@@ -27,7 +28,7 @@ export function Router() {
       <Route path='/registerVotingOptions' element={<RegisterVotingOpt />} />
       <Route path="/progressVoting" element={<ProgressVoting />} />
       <Route path="/vote" element={<Vote />} />
-
+      <Route path="/votesView" element={<VotesView />} />
       <Route path="/registro" element={<SignUp />} />
       <Route path="/acesso" element={<SignIn />} />
 

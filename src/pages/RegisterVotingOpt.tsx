@@ -2,7 +2,7 @@ import { theme } from '../styles/theme'
 import { ContentContainer, Btn, Label, SubTitle, TopBar, Title, FormField, FormContainer, FormElementContainer, DescriptionField, DescriptionFormField, BtnContainer, TopGrid } from "../styles/RegisterVoting";
 
 
-export default function RegisterVoting() {
+export default function RegisterVotingOptions() {
     return (
         <ContentContainer>
             <TopGrid>
