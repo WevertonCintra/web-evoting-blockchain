@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import styled from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -13,8 +14,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme['gray-900']};
-    color: ${(props) => props.theme['gray-300']};
+    background: ${(props) => props.theme['cinza']};
+    color: ${(props) => props.theme['gray-900']};
+    height: 100%;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -24,3 +26,9 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 `
+
+export const Container = styled.div`
+    min-height: 20rem;
+`;
+
+
