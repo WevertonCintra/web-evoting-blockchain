@@ -14,6 +14,8 @@ import RegisterVotingOpt from '../pages/RegisterVotingOpt'
 import { SignUp } from '../pages/SignUp'
 import { SignIn } from '../pages/SignIn'
 import VotesView from '../pages/VotesView'
+import ListVotes from '../pages/ListVotes'
+import VerifyVotes from '../pages/VerifyVotes'
 
 
 export function Router() {
@@ -27,7 +29,9 @@ export function Router() {
       <Route path="/registerVoting" element={<RegisterVoting />} />
       <Route path='/registerVotingOptions' element={<RegisterVotingOpt />} />
       <Route path="/progressVoting" element={<ProgressVoting />} />
+      <Route path="/verifyVotes" element={<VerifyVotes />} />
       <Route path="/vote" element={<Vote />} />
+      <Route path="/Listvotes" element={<ListVotes />} />
       <Route path="/votesView" element={<VotesView />} />
       <Route path="/registro" element={<SignUp />} />
       <Route path="/acesso" element={<SignIn />} />
