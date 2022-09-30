@@ -1,5 +1,5 @@
-function importKey() {
-  window.crypto.subtle
+async function importKey() {
+  return window.crypto.subtle
     .importKey(
       'jwk', // can be "jwk" (public or private), "spki" (public only), or "pkcs8" (private only)
       {
