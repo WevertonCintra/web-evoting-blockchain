@@ -45,6 +45,18 @@ export const NavbarLink = styled(Link)`
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
+  margin-top: 25px;
+  @media (max-width: 700px) {
+    display: none;
+  }
+`;
+
+export const PerfilDropdown = styled(Link)`
+  color: white;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 10px;
   @media (max-width: 700px) {
     display: none;
   }

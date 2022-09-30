@@ -1,8 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
 
 import Home from '../pages/Home'
-import Evento from'../pages/Evento'
 import Login from'../pages/Login'
+import Cadastro from '../pages/Cadastro'
+import Evento from '../pages/Evento'
 import RegisterVoting from '../pages/RegisterVoting'
 
 export function Router() {
@@ -10,6 +11,7 @@ export function Router() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/evento" element={<Evento />} />
       <Route path="/registerVoting" element={<RegisterVoting />} />
     </Routes>

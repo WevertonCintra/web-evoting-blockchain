@@ -1,20 +1,21 @@
-import styled from "styled-components";
-import { ContentContainer, Image, SubTitle, Title, BtnSubmit, InputPass } from '../styles/Login'
-import Imagem from '../assets/user_plus.png';
+import { ContentContainer, Image, Title, BtnLogin, InputCadastro} from '../styles/Login'
+import FileUploader from '../components/FileUploader';
+import Imagem from '../assets/login.png';
 
 function Login() {
   return (
     <ContentContainer>
       <Image src={Imagem}></Image>
-      <Title>Cadastro</Title>
-      <SubTitle>Geração de Chave Privada</SubTitle>
+      <Title>Entrar</Title>
 
       <form>
-        <InputPass type="password" name="password" id="password" placeholder="DIGITE A SENHA">
-        </InputPass>
-            <br></br>
-            <BtnSubmit type="submit">GERAR CHAVE PRIVADA</BtnSubmit>
-        </form>
+      <FileUploader></FileUploader>
+        <br></br>
+        <InputCadastro type="password" name="password" id="password" placeholder="DIGITE A SENHA">
+        </InputCadastro>
+        <br></br>
+        <BtnLogin type="submit">ENTRAR</BtnLogin>
+      </form>
     </ContentContainer>
   )
 }

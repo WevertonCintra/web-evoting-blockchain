@@ -1,5 +1,7 @@
 
+
 import { ContentContainer,Label, SubTitle, TopBar, Title, FormField, FormContainer, FormElementContainer, DescriptionField, DescriptionFormField } from "../styles/RegisterVoting";
+
 
 export default function RegisterVoting() {
   return (

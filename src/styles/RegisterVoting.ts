@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContentContainer = styled.div`
+
     backgroud: white;
     width: 960px;
     height: 476px;
@@ -98,5 +99,11 @@ export const SubTitle = styled.h6`
   text-align: center;
   border-bottom: 90%;
   border_bottom_color: green;  
+`;
+
+=======
+  display: grid;
+  justify-content: center;
+  margin-top: 5%;
 `;
 
